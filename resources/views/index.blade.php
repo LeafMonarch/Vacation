@@ -47,14 +47,18 @@
             We are available at...
         </h2>
 
+        
         <span class="font-extrabold block text-4xl py-1">
             Malaysia
         </span>
         <span class="font-extrabold block text-4xl py-1">
-           Ireland
+            Canada
         </span>
         <span class="font-extrabold block text-4xl py-1">
             France
+        </span>
+        <span class="font-extrabold block text-4xl py-1">
+           Ireland
         </span>
         <span class="font-extrabold block text-4xl py-1">
             Australia
