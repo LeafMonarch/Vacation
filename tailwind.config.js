@@ -11,7 +11,7 @@ module.exports = {
         mycolor: '#03132C',
         yellowish: '#FCD789',  
         cyan: '#4B9284',
-      }
+      },
     }
   },
   variants: {},
