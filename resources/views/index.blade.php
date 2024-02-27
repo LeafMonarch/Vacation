@@ -5,7 +5,7 @@
         <div class="flex text-gray-100 pt-10">
             <div class="m-auto pt-4 pb-16 sm:m-auto w-4/5 block text-center">
                 <h1 class="sm:text-white text-5xl uppercase font-bold text-shadow-md pb-14">
-                    Do you want to become a developer?
+                    Would you like to go on a vacation?
                 </h1>
                 <a 
                     href="/blog"
@@ -18,12 +18,12 @@
 
     <div class="sm:grid grid-cols-2 gap-20 w-4/5 mx-auto py-15 border-b border-gray-200">
         <div>
-            <img src="https://cdn.pixabay.com/photo/2014/05/03/01/03/laptop-336704_960_720.jpg" width="700" alt="">
+            <img src="https://www.planetware.com/wpimages/2020/05/cheap-tropical-vacations-koh-rong-cambodia.jpg" width="700" alt="">
         </div>
 
         <div class="m-auto sm:m-auto text-left w-4/5 block">
             <h2 class="text-3xl font-extrabold text-gray-600">
-                Struggling to be a better web developer?
+                Struggling to get the find the best vacation?
             </h2>
             
             <p class="py-8 text-gray-500 text-s">
@@ -31,7 +31,7 @@
             </p>
 
             <p class="font-extrabold text-gray-600 text-s pb-9">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente magnam vero nostrum! Perferendis eos molestias porro vero. Vel alias.
+                Our goal with this Vacation Blog is to ensure visitors' utmost satisfaction while keeping expenses to a minimum, accessible at all times and in any location.
             </p>
 
             <a 
@@ -42,22 +42,22 @@
         </div>
     </div>
 
-    <div class="text-center p-15 bg-black text-white">
+    <div class="text-center p-15 bg-yellowish text-white">
         <h2 class="text-2xl pb-5 text-l"> 
-            I'm an expert in...
+            We are available at...
         </h2>
 
         <span class="font-extrabold block text-4xl py-1">
-            Ux Design
+            Malaysia
         </span>
         <span class="font-extrabold block text-4xl py-1">
-            Project Management
+           Ireland
         </span>
         <span class="font-extrabold block text-4xl py-1">
-            Digital Strategy
+            France
         </span>
         <span class="font-extrabold block text-4xl py-1">
-            Backend Development
+            Australia
         </span>
     </div>
 
@@ -71,7 +71,7 @@
         </h2>
 
         <p class="m-auto w-4/5 text-gray-500">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque exercitationem saepe enim veritatis, eos temporibus quaerat facere consectetur qui.
+            Discover and explore our recent posts
         </p>
     </div>
 
@@ -83,7 +83,7 @@
                 </span>
 
                 <h3 class="text-xl font-bold py-10">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas necessitatibus dolorum error culpa laboriosam. Enim voluptas earum repudiandae consequuntur ad? Expedita labore aspernatur facilis quasi ex? Nemo hic placeat et?
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas necessitatibus dolorum error culpa laboriosam. Enim voluptas earum repudiandae consequuntur ad? Expedita labore aspernatur facilis quasi ex? Nemo hic placeat et?
                 </h3>
 
                 <a 
