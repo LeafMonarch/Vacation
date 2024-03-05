@@ -42,7 +42,7 @@
         </div>
     </div>
 
-    <div class="text-center p-15 bg-yellowish text-white">
+    <div class="background-image grid grid-cols-1 m-auto text-center p-15 bg-yellowish text-white">
         <h2 class="text-2xl pb-5 text-l"> 
             We are available at...
         </h2>

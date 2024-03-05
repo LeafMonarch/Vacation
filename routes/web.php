@@ -30,3 +30,9 @@ Route::get('/home', [\App\Http\Controllers\HomeController::class, 'index'])->nam
 Route::get('/about', function () {
     return view('about');
 });
+Route::get('/contact', function () {
+    return view('contact');
+});
+Route::get('/photos', function () {
+    return view('photos');
+});
