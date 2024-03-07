@@ -23,45 +23,59 @@
 
         <div class="m-auto sm:m-auto text-left w-4/5 block">
             <h2 class="text-3xl font-extrabold text-gray-600">
-                Struggling to get the find the best vacation?
+                Contact Method
             </h2>
             
             <p class="py-8 text-gray-500 text-s">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus.
+                Down Below:
             </p>
 
             <p class="font-extrabold text-gray-600 text-s pb-9">
-                Our goal with this Vacation Blog is to ensure visitors' utmost satisfaction while keeping expenses to a minimum, accessible at all times and in any location.
+                Facebook</br><a href="www.facebook.com" target=_blank>www.facebook.com</a>
             </p>
 
-            <a 
+            <p class="font-extrabold text-gray-600 text-s pb-9">
+                Instagram</br><a href="www.instagram.com" target=_blank>www.instagram.com</a>
+            </p>
+
+            <p class="font-extrabold text-gray-600 text-s pb-9">
+                LinkedIn</br><a href="www.linkedin.com" target=_blank>www.linkedin.com</a>
+            </p>
+
+            {{-- <a 
                 href="/blog"
                 class="uppercase bg-blue-500 text-gray-100 text-s font-extrabold py-3 px-8 rounded-3xl">
                 Find Out More
-            </a>
+            </a> --}}
         </div>
     </div>
 
-    <div class="text-center p-15 bg-yellowish text-white">
+    <div class="background-imagecontact text-center p-15 bg-yellowish text-white">
         <h2 class="text-2xl pb-5 text-l"> 
             We are available at...
         </h2>
 
         
         <span class="font-extrabold block text-4xl py-1">
-            Malaysia
+            Mon - 9:00 - 15:00
         </span>
         <span class="font-extrabold block text-4xl py-1">
-            Canada
+            Tues - 9:00 - 15:00
         </span>
         <span class="font-extrabold block text-4xl py-1">
-            France
+            Wed - 9:00 - 15:00
         </span>
         <span class="font-extrabold block text-4xl py-1">
-           Ireland
+            Thu - 9:00 - 15:00
         </span>
         <span class="font-extrabold block text-4xl py-1">
-            Australia
+            Fri - 9:00 - 17:00
+        </span>
+        <span class="font-extrabold block text-4xl py-1">
+            Sat - 10:00 - 15:00
+        </span>
+        <span class="font-extrabold block text-4xl py-1">
+            Sun - 10:00 - 1:00
         </span>
     </div>
 

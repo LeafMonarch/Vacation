@@ -27,11 +27,11 @@
             </h2>
             
             <p class="py-8 text-gray-500 text-s">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus.
+                Do not worry...
             </p>
 
             <p class="font-extrabold text-gray-600 text-s pb-9">
-                Our goal with this Vacation Blog is to ensure visitors' utmost satisfaction while keeping expenses to a minimum, accessible at all times and in any location.
+                Our goal with this Vacation Blog is to ensure our customers' utmost satisfaction while keeping expenses to a minimum, accessible at all times and at any location.
             </p>
 
             <a 
