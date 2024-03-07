@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="background-image grid grid-cols-1 m-auto" style="background-image: url(https://imgproxy.natucate.com/f658kHUpVe82wlR2RkwDBSaJe7oQQgw9BVP2XiWBPwU/rs:fill/g:ce/w:3500/h:1969/aHR0cHM6Ly93d3cubmF0dWNhdGUuY29tL21lZGlhL3BhZ2VzL3JlaXNlemllbGUvZTFhY2RhNjMtYzY2Ny00MWUwLWIyZWMtZjlkODcyZGYyNTMwL2NjOTcxNDk4ZTUtMTY3OTQ4NjgzNi9rYW5hZGEtbGFlbmRlcmluZm9ybWF0aW9uZW4tcm9ja3ktbW91bnRhaW5zLWJlcmdlLXNlZS1uYXR1Y2F0ZS5qcGc)">
+    <div class="background-image grid grid-cols-1 m-auto" style="background-image: url(https://wallpapercg.com/download/lakeside-3840x2160-4584.png)">
         <div class="flex text-gray-100 pt-10">
             <div class="m-auto pt-4 pb-16 sm:m-auto w-4/5 block text-center">
                 <h1 class="sm:text-white text-5xl uppercase font-bold text-shadow-md pb-14">
@@ -23,15 +23,15 @@
 
         <div class="m-auto sm:m-auto text-left w-4/5 block">
             <h2 class="text-3xl font-extrabold text-gray-600">
-                Struggling to get the find the best vacation?
+                The Laravel Vacation Blog
             </h2>
             
             <p class="py-8 text-gray-500 text-s">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus.
+                What is the Laravel Vacation Blog
             </p>
 
             <p class="font-extrabold text-gray-600 text-s pb-9">
-                Our goal with this Vacation Blog is to ensure visitors' utmost satisfaction while keeping expenses to a minimum, accessible at all times and in any location.
+                The Laravel Vacation Blog comprised of several talented individual working behind the scene, aim to bring the most satisfaction to anyone lucky enough to stumble on our website.
             </p>
 
             <a 
