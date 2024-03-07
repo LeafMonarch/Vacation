@@ -11,6 +11,8 @@ module.exports = {
         mycolor: '#03132C',
         yellowish: '#FCD789',  
         cyan: '#4B9284',
+        magentaa: '#F78F9E',
+        darkerMagenta: '#8D357C',
       },
     }
   },

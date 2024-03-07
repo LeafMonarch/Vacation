@@ -14,3 +14,12 @@
     background-size: cover;
     height: 600px;
 }
+
+.background-imageabout{
+    background-image: url('https://wallpapercg.com/download/lakeside-3840x2160-4584.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 400px;
+}
