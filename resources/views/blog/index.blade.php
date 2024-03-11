@@ -1,7 +1,8 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="w-4/5 m-auto text-center text-white bg-cyan" style="background-image: url('https://wallpapercave.com/wp/wp4676582.jpg')">
+{{-- <div class="w-4/5 m-auto text-center text-white bg-cyan" style="background-image: url('https://wallpapercave.com/wp/wp4676582.jpg')"> --}}
+    <div class="w-4/5 m-auto text-center text-white bg-cyan">
     <div class="py-15 border-b border-gray-200">
         <h1 class="text-6xl">
             Blog Posts
@@ -40,6 +41,10 @@
             <span class="text-gray-500">
                 By <span class="font-bold italic text-gray-800">{{ $post->user->name }}</span>, Created on {{ date('jS M Y', strtotime($post->updated_at)) }}
             </span>
+            
+            <p class="text-gray-500 my-2">
+                <span class="font-bold italic text-gray-800">{{ $post->season }} season</span> 
+            </p>
 
             <p class="text-xl text-gray-700 pt-8 pb-10 leading-8 font-light">
                 {{ $post->description }}
