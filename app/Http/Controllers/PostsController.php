@@ -133,4 +133,14 @@ class PostsController extends Controller
         return redirect('/blog')
             ->with('message', 'Your post has been deleted!');
     }
+
+    public function filterBySeason(Request $request)
+{
+    $selectedSeason = $request->input('season');
+    
+    // Retrieve posts based on the selected season (filtering logic)
+    $posts = Post::where('season', $selectedSeason)->get();
+
+    return view('blog.index', compact('posts'));
+}
 }
