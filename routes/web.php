@@ -36,3 +36,6 @@ Route::get('/contact', function () {
 Route::get('/photos', function () {
     return view('photos');
 });
+Route::get('/photos2', function () {
+    return view('photos2');
+});
