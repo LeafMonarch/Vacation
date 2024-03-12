@@ -125,50 +125,79 @@
         </div>
     </div>
 </div> --}}
-<div class="recentpost-container flex gap-20 w-4/5 m-auto">
-    <div class="sm:grid grid-cols-2 w-full">
-        <div class="flex bg-canada text-gray-100 pt-10" style="background-image: url(https://imgproxy.natucate.com/f658kHUpVe82wlR2RkwDBSaJe7oQQgw9BVP2XiWBPwU/rs:fill/g:ce/w:3500/h:1969/aHR0cHM6Ly93d3cubmF0dWNhdGUuY29tL21lZGlhL3BhZ2VzL3JlaXNlemllbGUvZTFhY2RhNjMtYzY2Ny00MWUwLWIyZWMtZjlkODcyZGYyNTMwL2NjOTcxNDk4ZTUtMTY3OTQ4NjgzNi9rYW5hZGEtbGFlbmRlcmluZm9ybWF0aW9uZW4tcm9ja3ktbW91bnRhaW5zLWJlcmdlLXNlZS1uYXR1Y2F0ZS5qcGc)">
-            <div class="m-auto pt-4 pb-16 sm:m-auto w-4/5 block">
-                <span class="uppercase text-xs">
-                    Canada
-                </span>
 
-                <h3 class="text-xl font-bold py-10">
-                    Canada is the second-largest country in the world by land area, located in North America, stretching from the Atlantic Ocean in the east to the Pacific Ocean in the west, and northward into the Arctic Ocean.s
-                </h3>
+{{-- Additional Feature --}}
 
-                <a 
-                    href=""
-                    class="uppercase bg-transparent border-2 border-gray-100 text-gray-100 text-xs font-extrabold py-3 px-5 rounded-3xl">
-                    Find Out More
-                </a>
-            </div>
-        </div>
-        {{-- <div>
-            <img src="https://cdn.pixabay.com/photo/2014/05/03/01/03/laptop-336704_960_720.jpg" alt="">
-        </div> --}}
+<div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjexIXEQaN_wOx_ZDbgtkSdRKAlBMwM5e4OzwkH_L9H2u2F_P3M1BtC_PjU4VARIm1TzRIL7-W5giXBm97aD8ee1LVNjikDPR_xYLk5vKTpkBrajYfBLlt7_M-OYHIMMiuHjqgIn2Iqb5piaD5EpPOf-VwbPq97rjU4iw7FOGMxywWfBEb_KDLSKcxOdQ/s1600/4k-desktop-wallpaper.gif" style="width:100%">
+      <div class="text">Caption Text</div>
     </div>
-    <div class="sm:grid grid-cols-2 w-full">
-        <div class="flex bg-canada text-gray-100 pt-10" style="background-image: url(https://imgproxy.natucate.com/f658kHUpVe82wlR2RkwDBSaJe7oQQgw9BVP2XiWBPwU/rs:fill/g:ce/w:3500/h:1969/aHR0cHM6Ly93d3cubmF0dWNhdGUuY29tL21lZGlhL3BhZ2VzL3JlaXNlemllbGUvZTFhY2RhNjMtYzY2Ny00MWUwLWIyZWMtZjlkODcyZGYyNTMwL2NjOTcxNDk4ZTUtMTY3OTQ4NjgzNi9rYW5hZGEtbGFlbmRlcmluZm9ybWF0aW9uZW4tcm9ja3ktbW91bnRhaW5zLWJlcmdlLXNlZS1uYXR1Y2F0ZS5qcGc)">
-            <div class="m-auto pt-4 pb-16 sm:m-auto w-4/5 block">
-                <span class="uppercase text-xs">
-                    Canada
-                </span>
-
-                <h3 class="text-xl font-bold py-10">
-                    Canada is the second-largest country in the world by land area, located in North America, stretching from the Atlantic Ocean in the east to the Pacific Ocean in the west, and northward into the Arctic Ocean.s
-                </h3>
-
-                <a 
-                    href=""
-                    class="uppercase bg-transparent border-2 border-gray-100 text-gray-100 text-xs font-extrabold py-3 px-5 rounded-3xl">
-                    Find Out More
-                </a>
-            </div>
-        </div>
-        {{-- <div>
-            <img src="https://cdn.pixabay.com/photo/2014/05/03/01/03/laptop-336704_960_720.jpg" alt="">
-        </div> --}}
+    
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="img_snow_wide.jpg" style="width:100%">
+      <div class="text">Caption Two</div>
     </div>
-</div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="img_mountains_wide.jpg" style="width:100%">
+      <div class="text">Caption Three</div>
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+    
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+    </div>
+
+
+    <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {slideIndex = 1}    
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+        }
+        </script>
+
+
+
+
+
+
+
+
+
+
+
 @endsection
