@@ -38,6 +38,11 @@
 	  vertical-align: middle;
 	  width: 100%;
 	}
+
+	.column img:hover{
+		transition: transform .6s;
+		transform: scale(1.02);
+	}
 	
 	/* Responsive layout - makes a two column-layout instead of four columns */
 	@media screen and (max-width: 800px) {
