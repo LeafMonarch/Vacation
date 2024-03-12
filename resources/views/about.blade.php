@@ -18,7 +18,8 @@
 
     <div class="sm:grid grid-cols-2 gap-20 w-4/5 mx-auto py-15 border-b border-gray-200">
         <div>
-            <img src="images/threepeople.jpg" width="700" alt="">
+            {{-- <img src="images/threepeople.jpg" width="700" alt=""> --}}
+            <img src="images/purplevacation.jpg" width="700" alt="">
         </div>
 
         <div class="m-auto sm:m-auto text-left w-4/5 block">

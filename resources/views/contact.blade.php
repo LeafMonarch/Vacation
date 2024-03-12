@@ -84,7 +84,7 @@
             Blog
         </span> --}}
 
-        <h2 class="text-4xl font-bold py-10">
+        <h2 class="text-4xl text-gray-600 font-bold py-10">
             Location
         </h2>
 

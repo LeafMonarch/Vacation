@@ -70,12 +70,12 @@
             Carousel
         </span>
 
-        <h2 class="text-4xl text-mycolor font-bold py-10">
-            Best Moments
+        <h2 class="text-4xl text-gray-600 font-bold py-10">
+            Best Moments of The Year
         </h2>
 
         <p class="m-auto w-4/5 text-gray-500">
-            Discover and explore our most favourite posts!
+            Discover and explore our most favourited posts!
         </p>
     </div>
 
