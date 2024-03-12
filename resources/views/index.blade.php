@@ -131,22 +131,34 @@
 <div class="slideshow-container">
 
     <div class="mySlides fade">
-      <div class="numbertext">1 / 3</div>
-      <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjexIXEQaN_wOx_ZDbgtkSdRKAlBMwM5e4OzwkH_L9H2u2F_P3M1BtC_PjU4VARIm1TzRIL7-W5giXBm97aD8ee1LVNjikDPR_xYLk5vKTpkBrajYfBLlt7_M-OYHIMMiuHjqgIn2Iqb5piaD5EpPOf-VwbPq97rjU4iw7FOGMxywWfBEb_KDLSKcxOdQ/s1600/4k-desktop-wallpaper.gif" style="width:100%">
+      <div class="numbertext">1 / 5</div>
+      <img src="https://images.pexels.com/photos/22804/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" style="width:100%">
       <div class="text">Caption Text</div>
     </div>
     
     <div class="mySlides fade">
-      <div class="numbertext">2 / 3</div>
-      <img src="img_snow_wide.jpg" style="width:100%">
+      <div class="numbertext">2 / 5</div>
+      <img src="https://images.pexels.com/photos/259804/pexels-photo-259804.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" style="width:100%">
       <div class="text">Caption Two</div>
     </div>
     
     <div class="mySlides fade">
-      <div class="numbertext">3 / 3</div>
-      <img src="img_mountains_wide.jpg" style="width:100%">
+      <div class="numbertext">3 / 5</div>
+      <img src="https://images.pexels.com/photos/2363/france-landmark-lights-night.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" style="width:100%">
       <div class="text">Caption Three</div>
     </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">4 / 5</div>
+      <img src="https://images.pexels.com/photos/2363/france-landmark-lights-night.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" style="width:100%">
+      <div class="text">Caption Three</div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">5 / 5</div>
+        <img src="https://images.pexels.com/photos/2363/france-landmark-lights-night.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" style="width:100%">
+        <div class="text">Caption Three</div>
+      </div>
     
     <a class="prev" onclick="plusSlides(-1)">❮</a>
     <a class="next" onclick="plusSlides(1)">❯</a>
@@ -158,6 +170,8 @@
       <span class="dot" onclick="currentSlide(1)"></span> 
       <span class="dot" onclick="currentSlide(2)"></span> 
       <span class="dot" onclick="currentSlide(3)"></span> 
+      <span class="dot" onclick="currentSlide(4)"></span> 
+      <span class="dot" onclick="currentSlide(5)"></span> 
     </div>
 
 
