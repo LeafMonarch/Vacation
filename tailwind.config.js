@@ -14,6 +14,7 @@ module.exports = {
         magentaa: '#F78F9E',
         darkerMagenta: '#8D357C',
         darkerdark: '#010030',
+        greyyy: '#A0AEC0',
       },
     }
   },

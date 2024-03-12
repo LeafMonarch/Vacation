@@ -3,7 +3,7 @@
 @section('content')
 <div class="w-4/5 m-auto text-left">
     <div class="py-15">
-        <h1 class="text-6xl">
+        <h1 class="text-6xl text-greyyy-600 font-bold">
             Create Vacation Post
         </h1>
     </div>
@@ -34,12 +34,21 @@
             placeholder="Title..."
             class="bg-transparent block border-b-2 w-full h-20 text-6xl outline-none">
 
-        <input 
+        {{-- <input 
             type="season"
             name="season"
             placeholder="Season..."
-            class="bg-transparent block border-b-2 w-full h-20 text-4xl outline-none">
+            class="bg-transparent block border-b-2 w-full h-20 text-4xl outline-none"> --}}
             
+        <select 
+            name="season"
+            class="bg-transparent text-greyyy block border-b-2 w-full h-20 text-3xl outline-none my-2 hover:bg-greyyy hover:text-white">
+            <option value="">Select Season</option>
+            <option value="Spring">Spring</option>
+            <option value="Summer">Summer</option>
+            <option value="Autumn">Autumn</option>
+            <option value="Winter">Winter</option>
+        </select>
 
         <textarea 
             name="description"
@@ -60,7 +69,7 @@
 
         <button    
             type="submit"
-            class="uppercase mt-15 bg-blue-500 text-gray-100 text-lg font-extrabold py-4 px-8 rounded-3xl">
+            class="uppercase mt-15 bg-green-500 text-gray-100 text-lg font-extrabold py-4 px-8 rounded-3xl">
             Submit Post
         </button>
     </form>
