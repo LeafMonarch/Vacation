@@ -148,3 +148,10 @@ img {vertical-align: middle;}
 .w-my{
   width: 100%;
 }
+
+.deleteandedit{
+  float: right;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}

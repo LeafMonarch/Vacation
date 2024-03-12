@@ -12,7 +12,7 @@
 
 @if (session()->has('message'))
     <div class="w-4/5 m-auto mt-10 pl-2">
-        <p class="w-2/6 mb-4 text-gray-50 bg-green-500 rounded-2xl py-4">
+        <p class="w-2/6 mb-4 text-gray-50 bg-green-500 rounded-2xl py-4 text-left pl-1">
             {{ session()->get('message') }}
         </p>
     </div>
@@ -79,10 +79,11 @@
             </a>
 
             @if (isset(Auth::user()->id) && Auth::user()->id == $post->user_id)
+            <div class="deleteandedit">
                 <span class="float-right">
                     <a 
                         href="/blog/{{ $post->slug }}/edit"
-                        class="text-gray-700 italic hover:text-gray-900 pb-1 border-b-2">
+                        class="text-white text-l bg-green-500 p-1 rounded-sm">
                         Edit
                     </a>
                 </span>
@@ -95,13 +96,14 @@
                         @method('delete')
 
                         <button
-                            class="text-red-500 pr-3"
+                            class="text-white text-l bg-red-500 mr-3 p-1 rounded-sm"
                             type="submit">
                             Delete
                         </button>
 
                     </form>
                 </span>
+            </div>
             @endif
         </div>
     </div>    
