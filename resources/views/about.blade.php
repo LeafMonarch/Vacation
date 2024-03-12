@@ -66,6 +66,6 @@
     </div>
 
     <div class="yt">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/aP7kVq5bewo?si=42dTmlU4IkaP2Np-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    </div>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/OCzzN8VZgfY?si=lDY91eBQ4P-goe0x" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+   </div>
 @endsection
