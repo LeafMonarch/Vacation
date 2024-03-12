@@ -37,7 +37,7 @@
 
 
 
-
+/* Carousel Images */
 * {box-sizing: border-box}
 body {font-family: Verdana, sans-serif; margin:0}
 .mySlides {display: none}
@@ -51,7 +51,7 @@ img {vertical-align: middle;}
 }
 
 /* Next & previous buttons */
-.prev, .next {
+/* .prev, .next {
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -64,7 +64,7 @@ img {vertical-align: middle;}
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
-}
+} */
 
 /* Position the "next button" to the right */
 .next {
@@ -98,7 +98,7 @@ img {vertical-align: middle;}
 }
 
 /* The dots/bullets/indicators */
-.dot {
+/* .dot {
   cursor: pointer;
   height: 15px;
   width: 15px;
@@ -107,11 +107,11 @@ img {vertical-align: middle;}
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
-}
+} */
 
-.active, .dot:hover {
+/* .active, .dot:hover {
   background-color: #717171;
-}
+} */
 
 /* Fading animation */
 .fade {
