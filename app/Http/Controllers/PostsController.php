@@ -18,11 +18,39 @@ class PostsController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    // public function index()
+    // {
+    //     return view('blog.index')
+    //         ->with('posts', Post::orderBy('updated_at', 'DESC')->get());
+    // }
+    public function index(Request $request)
     {
-        return view('blog.index')
-            ->with('posts', Post::orderBy('updated_at', 'DESC')->get());
+        $posts = Post::query();
+        $seasons = ['Spring','Summer','Autumn','Winter']; // Example seasons array, replace with your actual data
+
+        if ($request->has('season')) {
+            $posts->where('season', $request->season);
+        }
+
+        if ($request->has('sort')) {
+            if ($request->sort == 'season_asc') {
+                $posts->orderBy('season', 'asc');
+            } elseif ($request->sort == 'season_desc') {
+                $posts->orderBy('season', 'desc');
+            }
+
+            if ($request->sort == 'date_asc') {
+                $posts->orderBy('updated_at', 'asc');
+            } elseif ($request->sort == 'date_desc') {
+                $posts->orderBy('updated_at', 'desc');
+            }
+        }
+
+        $posts = $posts->get();
+
+        return view('blog.index', compact('posts', 'seasons'));
     }
+
 
     /**
      * Show the form for creating a new resource.

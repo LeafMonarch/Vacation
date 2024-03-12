@@ -18,6 +18,25 @@
     </div>
 @endif
 
+<form action="{{ route('blog.index') }}" method="GET" class="w-4/5 m-auto mt-5 text-right">
+    <label for="sort">Sort by:</label>
+    <select name="sort" id="sort" onchange="this.form.submit()">
+        <option value="">Select</option>
+        <option value="season_asc" @if(request('sort') == 'season_asc') selected @endif>Season (Ascending)</option>
+        <option value="season_desc" @if(request('sort') == 'season_desc') selected @endif>Season (Descending)</option>
+        <option value="date_asc" @if(request('sort') == 'date_asc') selected @endif>Date (Ascending)</option>
+        <option value="date_desc" @if(request('sort') == 'date_desc') selected @endif>Date (Descending)</option>
+    </select>
+
+    <label for="toseasonpic">Filter by Season:</label>
+    <select name="season" id="season" onchange="this.form.submit()">
+        <option value="">All Seasons</option>
+        @foreach($seasons as $season)
+            <option value="{{ $season }}" @if(request('season') == $season) selected @endif>{{ $season }}</option>
+        @endforeach
+    </select>
+</form>
+
 @if (Auth::check())
     <div class="pt-15 w-4/5 m-auto">
         <a 
@@ -27,6 +46,11 @@
         </a>
     </div>
 @endif
+
+
+
+
+
 
 @foreach ($posts as $post)
     <div class="sm:grid grid-cols-2 gap-20 w-4/5 mx-auto py-15 border-b border-gray-200">
