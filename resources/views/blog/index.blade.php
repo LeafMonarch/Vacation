@@ -30,7 +30,7 @@
 
     <label for="toseasonpic">Filter by Season:</label>
     <select name="season" id="season" onchange="this.form.submit()">
-        <option value="">All Seasons</option>
+        <option value="all">All Seasons</option>
         @foreach($seasons as $season)
             <option value="{{ $season }}" @if(request('season') == $season) selected @endif>{{ $season }}</option>
         @endforeach

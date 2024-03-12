@@ -28,8 +28,15 @@ class PostsController extends Controller
         $posts = Post::query();
         $seasons = ['Spring','Summer','Autumn','Winter']; // Example seasons array, replace with your actual data
 
+        // if ($request->has('season')) {
+        //     $posts->where('season', $request->season);
+        // }
+
         if ($request->has('season')) {
-            $posts->where('season', $request->season);
+            if ($request->season != 'all') {
+                $posts->where('season', $request->season);
+            }
+            // If 'all' is selected, don't filter by season
         }
 
         if ($request->has('sort')) {
