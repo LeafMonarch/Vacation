@@ -28,7 +28,6 @@
                     <a class="no-underline hover:underline" href="/">Home</a>
                     <a class="no-underline hover:underline" href="/blog">Blog</a>
                     <a class="no-underline hover:underline" href="/photos">Photos</a>
-                    <a class="no-underline hover:underline" href="/photos2">Photos2</a>
                     <a class="no-underline hover:underline" href="/about">About</a>
                     <a class="no-underline hover:underline" href="/contact">Contact</a>
                     @guest
