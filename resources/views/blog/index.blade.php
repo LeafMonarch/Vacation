@@ -10,6 +10,33 @@
     </div>
 </div>
 
+<!-- Season Filter -->
+<div class="w-4/5 m-auto my-5">
+    <form action="{{ route('filter') }}" method="GET">
+        <select name="season" id="season" onchange="this.form.submit()">
+            <option value="">All Seasons</option>
+            <option value="Spring">Spring</option>
+            <option value="Summer">Summer</option>
+            <option value="Autumn">Autumn</option>
+            <option value="Winter">Winter</option>
+        </select>
+    </form>
+</div>
+
+@if (session()->has('message'))
+    <div class="w-4/5 m-auto mt-10 pl-2">
+        <p class="w-2/6 mb-4 text-gray-50 bg-green-500 rounded-2xl py-4">
+            {{ session()->get('message') }}
+        </p>
+    </div>
+@endif
+
+@foreach ($posts as $post)
+    <div class="sm:grid grid-cols-2 gap-20 w-4/5 mx-auto py-15 border-b border-gray-200">
+        <!-- Your existing post display code here -->
+    </div>    
+@endforeach
+
 @if (session()->has('message'))
     <div class="w-4/5 m-auto mt-10 pl-2">
         <p class="w-2/6 mb-4 text-gray-50 bg-green-500 rounded-2xl py-4 text-left pl-1">
