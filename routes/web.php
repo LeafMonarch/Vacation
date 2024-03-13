@@ -39,3 +39,12 @@ Route::get('/photos', function () {
 Route::get('/photos2', function () {
     return view('photos2');
 });
+
+// // Define the route for filtering posts by season
+// Route::get('/filter', 'PostController@filterBySeason')->name('filter');
+
+// Specify the correct namespace for the controller
+Route::get('/filter', 'app\Http\Controllers\PostController@filterBySeason')->name('filter');
+
+
+
