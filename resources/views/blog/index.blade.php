@@ -27,7 +27,7 @@
     </div>
 @endif
 
-<form action="{{ route('blog.index') }}" method="GET" class="w-4/5 m-auto mt-5 text-right">
+{{-- <form action="{{ route('blog.index') }}" method="GET" class="w-4/5 m-auto mt-5 text-right">
     <label for="sort">Sort by:</label>
     <select name="sort" id="sort" onchange="this.form.submit()">
         <option value="">Select</option>
@@ -44,7 +44,7 @@
             <option value="{{ $season }}" @if(request('season') == $season) selected @endif>{{ $season }}</option>
         @endforeach
     </select>
-</form>
+</form> --}}
 
 @if (Auth::check())
     <div class="pt-15 w-4/5 m-auto">
