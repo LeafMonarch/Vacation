@@ -35,6 +35,16 @@
             value="{{ $post->title }}"
             class="bg-transparent block border-b-2 w-full h-20 text-6xl outline-none">
 
+        <select 
+            name="season"
+            class="bg-transparent text-greyyy block border-b-2 w-full h-20 text-3xl outline-none my-2 hover:bg-greyyy hover:text-white">
+            <option value="">Select Season</option>
+            <option value="{{ $post->season }}">Spring</option>
+            <option value="{{ $post->season }}">Summer</option>
+            <option value="{{ $post->season }}">Autumn</option>
+            <option value="{{ $post->season }}">Winter</option>
+        </select>
+
         <textarea 
             name="description"
             placeholder="Description..."
