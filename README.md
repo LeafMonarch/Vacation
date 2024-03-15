@@ -50,3 +50,23 @@ Do not hesitate to contribute to the project by adapting or adding features ! Bu
 
 
 ## PHP Laravel Vacation Blog
+•	Done by Yee Chean Chang <br>
+•	Group SD2a <br>
+
+## PHP Laravel Vacation Blog Pages
+•	Home <br>
+•	Blog <br>
+•	Photos <br>
+•	About <br>
+•	Contact <br>
+
+## 5 Added Blog Articles
+•	Malaysia <br>
+•	Canada <br>
+•	France <br>
+•	Australia <br>
+•	Ireland <br>
+
+## Unique Features
+•	Sorting Blog Posts <br>
+•	Filtering Blog Posts <br>
